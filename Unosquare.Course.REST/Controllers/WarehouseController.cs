@@ -19,7 +19,8 @@ namespace Unosquare.Course.REST.Controllers
         public IActionResult GetWarehouse([FromServices] IWarehouseService _warehouseService)
         {
 
-            return Ok(_warehouseService.GetWarehouses());
+            //return Ok(_warehouseService.GetWarehouses());
+            return Ok();
         }
 
         //localhost:8080/api/warehouse/warehouseFromQuery
